@@ -81,8 +81,8 @@ public class ElasticSearchConsumer {
 
     String hostname = "kafka-course-8419957422.us-west-2.bonsaisearch.net";
     int port = 443;
-    String username = "p9l3u781ez";
-    String password = "7ea39bolsh";
+    String username = "username";
+    String password = "password";
 
     CredentialsProvider cp = new BasicCredentialsProvider();
     cp.setCredentials(AuthScope.ANY, new UsernamePasswordCredentials(username, password));
